@@ -1,0 +1,83 @@
+html
+	head
+		title Home by Hand
+		meta(charset="utf-8")
+		meta(name="viewport" content="width=device-width initial-scale=1")
+		style 
+			include ../public/css/foundation.css
+			include ../public/css/owl.theme.default.min.css
+			include ../public/css/owl.carousel.min.css
+			include ../public/css/header.css
+			include ../public/css/general.css
+			include ../public/css/footer.css
+			include ../public/css/home.css
+		script(type='text/javascript' src='public/js/jquery.js')
+		script(type='text/javascript' src='public/js/home.js')
+		script(src='public/js/owl.carousel.min.js')
+		script(type='text/javascript').
+			var local_data = !{JSON.stringify(data)};
+		link(rel='stylesheet', href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css")
+		link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Arapey|Montserrat')
+
+	body
+		div#navigation
+			div#logoAndIcons.row
+				div#logo.small-10.medium-12.columns
+					img(src="/public/images/logo.png")
+				div#iconsAndPopUpMenu
+					div#icons
+						div.wrapper.show-for-medium
+							span.icon#profile
+								i.fa.fa-user-circle(aria-hidden="true")
+						div.wrapper.show-for-medium
+							span.icon#heart
+								i.fa.fa-heart(aria-hidden="true")
+						div.wrapper.show-for-medium
+							span.icon#shopping-basket
+								i.fa.fa-shopping-cart(aria-hidden="true")
+						div.wrapper
+							span.icon#bars
+								i.fa.fa-bars(aria-hidden="true")
+					div#popUpMenu
+						div#popUpNewArrivals
+							a(href="/") New Arrivals
+						div#imageGrid.row
+							div.image.small-6.columns#gridImage
+								a(href="/")
+									i.fa.fa-image
+							div.image.small-6.columns#gridBath
+								a(href="/")
+									i.fa.fa-bath
+							div.image.small-6.columns#gridBed
+								a(href="/")
+									i.fa.fa-bed
+							div.image.small-6.columns#gridLightbulb
+								a(href="/")
+									i.fa.fa-lightbulb-o
+						div#popUpHomeAccessories
+							a(href="/") Home Accessories
+						div#popUpLighting
+							a(href="/") Lighting
+						div#popUpGifts
+							a(href="/") Gifts
+						div#popUpClearance
+							a(href="/") Clearance
+					div#popUpBasket
+						div#emptyBasket
+							span Your basket is empty!
+					div#popUpProfile
+						div#signIn
+							a(href="/" class="button") Sign In
+						div#register
+							a(href="/" class="button") Register
+			div#navLinks.row.show-for-large
+				div.navLink.small-2.small-offset-1.columns#newArrivals
+					a(href="/") New Arrivals
+				div.navLink.small-2.columns#furniture
+					a(href="/") Furniture
+				div.navLink.small-2.columns#homeAccessories
+					a(href="/") Home Accessories
+				div.navLink.small-2.columns#lighting
+					a(href="/") Lighting
+				div.navLink.small-2.end.columns#sale
+					a(href="/") Sale

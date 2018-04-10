@@ -1,0 +1,93 @@
+#landing {
+	position: relative;
+	z-index: -1;
+}
+
+#promotions {
+	position: absolute;
+	top: 20;
+	width: 100%;
+	text-align: center;
+	overflow: hidden;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+}
+
+.promotion {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.promotion div {
+	margin: 5px;
+	background-color: #FFFFFF;
+	border: solid 1px #000000;
+	padding: 5px;
+	width: 200px;
+}
+
+.promotion a {
+	color: #000000;
+	transition: 1s;
+}
+
+.promotion a:hover {
+	color: #D6AD10;
+}
+
+#firstDisplay {
+	border-top: dashed #D6AD10 5px;
+	border-bottom: dashed #D6AD10 5px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#secondDisplay {
+  	margin-top: 25px;
+  	margin-bottom: 25px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+  	overflow: hidden;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+}
+
+
+#right, #left {
+	flex: 1;
+}
+
+#right img:first-child {
+	margin-bottom: 10px;
+}
+
+#homeText {
+	padding: 20px;
+}
+
+.pageLink {
+	position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+.pageLink i {
+	font-size: 30px;
+	color: #D6AD10;
+	transition: 1s;
+}
+
+.pageLink i:hover {
+	font-size: 30px;
+	color: #FFFFFF;
+}
+
+#testimony {
+	padding: 30px;
+	text-align: justify;
+}
