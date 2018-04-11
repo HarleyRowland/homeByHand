@@ -28,6 +28,12 @@ var callback = function(error, res, template, data){
 
 app.get("/", (req, res) => userController.simplePage(req, res, "home.pug", callback))
 app.get("/contact", (req, res) => userController.simplePage(req, res, "contact.pug", callback))
+app.get("/about", (req, res) => userController.simplePage(req, res, "aboutUs.pug", callback))
+app.get("/delivery", (req, res) => userController.simplePage(req, res, "delivery.pug", callback))
+app.get("/returns", (req, res) => userController.simplePage(req, res, "returns.pug", callback))
+app.get("/teescees", (req, res) => userController.simplePage(req, res, "teescees.pug", callback))
+app.get("/privacy", (req, res) => userController.simplePage(req, res, "privacy.pug", callback))
+app.get("/cookies", (req, res) => userController.simplePage(req, res, "cookies.pug", callback))
 
 app.listen(app.get('port'), function() {
   console.info('Node app is running on port', app.get('port'));
