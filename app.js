@@ -2,7 +2,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 const app = express();
 
-var recipeController = require('./controllers/recipeController.js')
+var userController = require('./controllers/userController.js')
 
 app.set("view engine", "pug");
 app.set('port', (process.env.PORT || 5000));
@@ -26,7 +26,8 @@ var callback = function(error, res, template, data){
   res.render(template, {data: data});
 }
 
-app.get("/", (req, res) => recipeController.getRecipe(req, res, "home.pug", callback))
+app.get("/", (req, res) => userController.simplePage(req, res, "home.pug", callback))
+app.get("/contact", (req, res) => userController.simplePage(req, res, "contact.pug", callback))
 
 app.listen(app.get('port'), function() {
   console.info('Node app is running on port', app.get('port'));

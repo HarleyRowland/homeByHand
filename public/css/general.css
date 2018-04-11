@@ -16,3 +16,12 @@ body *:not(.fa) {
 	text-decoration: underline;
 	text-align: center;
 }
+
+.form .formItem {
+	margin-top: 20px;
+}
+
+.form .formItem input{
+	width: 100%;
+	height: 40px;
+}
