@@ -6,13 +6,11 @@
 
 #footer * {
 	color: #FFFFFF;
-	font-size: 20px;
+	font-size: 15px;
 	transition: 1s
 }
 
 #footer *:hover {
-	color: #FFFFFF;
-	font-size: 20px;
 	color: #D6AD10;
 }
 
