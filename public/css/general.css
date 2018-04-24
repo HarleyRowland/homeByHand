@@ -4,8 +4,16 @@ body {
 	flex-direction: column;
 }
 
+/*body * {
+	border: solid 1px red;
+}*/
+
 .content {
   flex: 1;
+}
+
+.content > div:first-child {
+  border-top: solid #999999 1px;
 }
 
 body *:not(.fa) {
@@ -24,4 +32,10 @@ body *:not(.fa) {
 .form .formItem input{
 	width: 100%;
 	height: 40px;
+}
+
+.divider {
+	border-top: solid 1px #999999;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }

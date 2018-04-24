@@ -1,0 +1,26 @@
+include header.pug
+.content
+	div#landing
+		img.show-for-medium(src="/public/images/sell.jpg")
+		img.hide-for-medium(src="/public/images/sell-mobile.jpg")
+	div.form#contactForm.row
+		h2.subtitle Sell With Us
+		.formItem.small-12.columns
+			div Name:
+			input
+		.formItem.small-12.columns
+			div E-mail:
+			input
+		.formItem.small-12.columns
+			div Contact Number:
+			input
+		.formItem.small-12.columns
+			div RRP
+			input
+		.formItem.small-12.columns
+			div Product Description:
+			textarea
+		div.submit
+			a(href="/" class="button") Submit Query
+
+include footer.pug

@@ -1,0 +1,43 @@
+include header.pug
+header.cd-main-header
+	a.cd-logo(href="#0")
+		img(src="img/cd-logo.svg" alt="Logo")
+	
+	div.cd-search
+		form(action="#0")
+			input(type="search" placeholder="Search...")
+
+	a.cd-nav-trigger(href="#0") Menu
+		span
+
+	nav.cd-nav
+		ul.cd-top-nav
+			li
+				a(href="#0") Tour
+			li
+				a(href="#0") Support
+			li.has-children.account
+				a(href="#0")
+					img(src="img/cd-avatar.png" alt="avatar")
+					span Account
+			ul
+				li
+					a(href="#0") My Account
+
+main.cd-main-content
+	nav.cd-side-nav
+		ul
+			li.cd-label Main
+			li.has-children.overview
+				a(href="#0") Overview
+				ul
+					li
+						a(href="#0") All Data
+			li.has-children.notifications.active
+				a(href="#0") Notifications
+					span.count 3
+				ul
+					li
+						a(href="#0") All Notifications
+	div.content-wrapper
+include footer.pug

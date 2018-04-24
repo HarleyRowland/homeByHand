@@ -12,8 +12,11 @@ html
 			include ../public/css/footer.css
 			include ../public/css/home.css
 			include ../public/css/contact.css
+			include ../public/css/product.css
 		script(type='text/javascript' src='public/js/jquery.js')
+		script(type='text/javascript' src='public/js/header.js')
 		script(type='text/javascript' src='public/js/home.js')
+		script(type='text/javascript' src='public/js/product.js')
 		script(src='public/js/owl.carousel.min.js')
 		script(type='text/javascript').
 			var local_data = !{JSON.stringify(data)};
@@ -24,7 +27,8 @@ html
 		div#navigation
 			div#logoAndIcons.row
 				div#logo.small-10.medium-12.columns
-					img(src="/public/images/logo.png")
+					a(href="/")
+						img(src="/public/images/logo.png")
 				div#iconsAndPopUpMenu
 					div#icons
 						div.wrapper.show-for-medium

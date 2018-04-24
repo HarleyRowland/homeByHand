@@ -1,0 +1,169 @@
+#productImageAndDescription {
+	padding-top: 30px; 
+	padding-bottom: 30px; 
+}
+
+#productImage > img {
+	padding: 5px;
+	border: solid 1px #000000;
+}
+
+#productImageAndDescription h5 {
+	color: #D6AD10;
+}
+
+#productImage .title {
+	text-align: center;
+}
+
+#price h1 {
+	font-weight: bold;
+}
+
+#moreImagesCarousel {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.moreImagesCarouselImage {
+	padding: 5px;
+	border: solid 1px #000000;
+}
+
+.moreImagesCarouselImage img{
+	cursor: pointer;
+}
+
+.title {
+	padding-top: 10px;
+}
+
+.title * {
+	line-height: 0.8;
+}
+
+#info > div {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#addToBasketAndQuantity {
+	margin-top: 20px;
+}
+
+#quantity {
+	padding: 0;
+}
+
+#quantity select {
+	width: 95%;
+}
+
+#quantity select, #addToBasket {
+	height: 50px;
+	margin: 0;
+}
+
+#addToBasket {
+	background-color: #D6AD10;
+	transition: 1s;
+	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	margin: 0px;
+ 	padding: 0px;
+}
+
+#addToBasket:hover {
+  background-color: #BD9400;
+}
+
+#addToBasket a {
+  background-color: transparent;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#colours {
+	margin-top: 5px;
+}
+
+#colours .colour{
+	height: 30px;
+	width: 30px;
+	border: solid 1px #000000;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#colours .active {
+	border: solid 3px #000000;
+}
+
+#wishList a{
+	float: right;
+	color: #000000;
+	transition: 1s;
+	text-decoration: underline;
+}
+
+#wishList a:hover {
+	color: #D6AD10;
+}
+
+#priceAndRating {
+	display: flex;
+ 	align-items: center;
+}
+
+#rating > div {
+	float: right;
+	
+}
+
+i.fa-star {
+	color: #B1B1B1;
+}
+
+i.fa-star.litStar {
+	color: #D6AD10;
+}
+
+#seeAlso {
+	text-align: center;
+}
+
+#seeAlso h3 {
+	font-weight: bold;
+}
+
+.seeAlsoDetails {
+	padding-top: 10px;
+}
+.seeAlsoDetails * {
+	text-align: left;
+}
+
+.seeAlsoTitle {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.seeAlsoSubtitle {
+	font-size: 15px;
+}
+
+#seeAlsoCarousel {
+	margin-top: 20px;
+}
+
+#more-info {
+	text-align: justify;
+	padding: 20px;
+}
+
+#more-info h6 {
+	text-decoration: underline;
+}

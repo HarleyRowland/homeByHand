@@ -1,0 +1,131 @@
+include header.pug
+div.content
+	div#productImageAndDescription.row
+		div#productImage.small-12.medium-6.columns
+			div.title.hide-for-medium
+				h3 APPLEWOOD
+				h5 GREEN CHEST OF DRAWS
+			img.show-for-medium#mainProductImage(src="/public/images/display1.jpg")
+			div.owl-carousel.owl-theme#moreImagesCarousel
+				div.moreImagesCarouselImage
+					img(src="/public/images/display1.jpg")
+				div.moreImagesCarouselImage
+					img(src="/public/images/display2.jpg")
+				div.moreImagesCarouselImage
+					img(src="/public/images/display3.jpg")
+				div.moreImagesCarouselImage
+					img(src="/public/images/display4.jpg")
+				div.moreImagesCarouselImage
+					img(src="/public/images/display5.jpg")
+				div.moreImagesCarouselImage
+					img(src="/public/images/display6.jpg")
+		#description.small-12.medium-6.columns
+			div.title.show-for-medium
+				h3 APPLEWOOD
+				h5 GREEN CHEST OF DRAWS 
+			div#priceAndRating.row
+				div#price.small-6.columns
+					h1 £245
+				div#rating.small-6.columns
+					div
+						i.fa.fa-star.litStar
+						i.fa.fa-star.litStar
+						i.fa.fa-star.litStar
+						i.fa.fa-star.litStar
+						i.fa.fa-star
+						span (162)
+			div#dimensionsAndItemCode.row
+				div#dimensions.small-7.columns
+					b.text Size: 
+					span.data 180cm x 300cm x 70cm
+				div#itemCode.small-5.columns
+					b.text Item Code: 
+					span.data 1234567890
+			div#colours
+				span.text Colour:
+				div
+					a(href="/")
+						div.colour.active(style="background-color:red;")
+					a(href="/")
+						div.colour(style="background-color:blue;")
+					a(href="/")
+						div.colour(style="background-color:green;")
+					a(href="/")
+						div.colour(style="background-color:yellow;")
+					a(href="/")
+						div.colour(style="background-color:purple;")
+			div#addToBasketAndQuantity
+				div#quantity.small-4.columns
+					select(href="/")
+						option Qty
+						option ----------
+						option 1
+						option 2
+						option 3
+						option 4
+						option 5
+						option 6
+						option 7
+						option 8
+						option 9
+				div#addToBasket.small-8.columns
+					a(href="/") Add to Basket
+			div#wishList
+				a(href="/") Save to wishlist
+		div#more-info.show-for-medium
+			h5 More Info
+			p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut gravida nulla. Phasellus eu porttitor velit. Nunc elementum lorem nibh, ullamcorper tristique dolor pretium a. Pellentesque sed volutpat leo. Donec imperdiet odio id lectus auctor, et interdum turpis tincidunt.
+	div#more-info.hide-for-medium
+		h5 More Info
+		p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut gravida nulla. Phasellus eu porttitor velit. Nunc elementum lorem nibh, ullamcorper tristique dolor pretium a. Pellentesque sed volutpat leo. Donec imperdiet odio id lectus auctor, et interdum turpis tincidunt.
+	div.divider.row
+	div#seeAlso.row
+		h3 You Might Also Like
+		h5 Get 10% Off When You Buy These Items Together
+		div.owl-carousel.owl-theme#seeAlsoCarousel
+			div.seeAlsoItem
+				div.seeAlsoCarouselImage
+					img(src="/public/images/display2.jpg")
+					a.pageLink(href="/product")
+						i.fa-eye.fa
+				div.seeAlsoDetails
+					div.seeAlsoTitle Apple Kitchen Table
+					div.seeAlsoSubtitle White four-seater table
+					div.seeAlsoPrice £200
+			div.seeAlsoItem
+				div.seeAlsoCarouselImage
+					img(src="/public/images/display3.jpg")
+					a.pageLink(href="/product")
+						i.fa-eye.fa
+				div.seeAlsoDetails
+					div.seeAlsoTitle Banana lounger
+					div.seeAlsoSubtitle Yellow Desk Chair
+					div.seeAlsoPrice £100
+			div.seeAlsoItem
+				div.seeAlsoCarouselImage
+					img(src="/public/images/display4.jpg")
+					a.pageLink(href="/product")
+						i.fa-eye.fa
+				div.seeAlsoDetails
+					div.seeAlsoTitle Casual Rocker
+					div.seeAlsoSubtitle White Rocking Chair
+					div.seeAlsoPrice £120
+			div.seeAlsoItem
+				div.seeAlsoCarouselImage
+					img(src="/public/images/display5.jpg")
+					a.pageLink(href="/product")
+						i.fa-eye.fa
+				div.seeAlsoDetails
+					div.seeAlsoTitle Rowland Dining Set
+					div.seeAlsoSubtitle Large Table and Chairs
+					div.seeAlsoPrice £400
+			div.seeAlsoItem
+				div.seeAlsoCarouselImage
+					img(src="/public/images/display6.jpg")
+					a.pageLink(href="/product")
+						i.fa-eye.fa
+				div.seeAlsoDetails
+					div.seeAlsoTitle Gould Brunch Set
+					div.seeAlsoSubtitle Small Table and Chairs
+					div.seeAlsoPrice £300
+include footer.pug
