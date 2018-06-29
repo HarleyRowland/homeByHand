@@ -1,18 +1,18 @@
 #footer {
-	background-color: #616161;
+	border-top: solid 1px #AAAAAA;
 	text-align: center;
 	padding: 20px;
 	margin-top: 50px;
 }
 
 #footer * {
-	color: #FFFFFF;
+	color: #AAAAAA;
 	font-size: 15px;
 	transition: 1s
 }
 
 #footer *:hover {
-	color: #D6AD10;
+	color: #000000;
 }
 
 #social {
@@ -28,7 +28,7 @@
 }
 
 #social i:hover {
-	color: #D6AD10;
+	color: #000000;
 }
 
 .footerLink {

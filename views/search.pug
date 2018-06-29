@@ -1,0 +1,159 @@
+include header.pug
+div.content
+	div#advancedSearch.row
+		div#accordion
+			h5 Advanced Search
+				i.fa.fa-chevron-down
+		div#filters.row
+			div.filter.small-12.medium-6.large-3.columns
+				select(href="/")
+					option Colour
+					option ----------
+					option Red
+					option Blue
+					option Green
+					option Yellow
+					option Brown
+					option Pink
+			div.filter.small-12.medium-6.large-3.columns
+				select(href="/")
+					option Type of Wood
+					option ----------
+					option Oak
+					option Pine
+					option Veneer
+			div.filter.small-12.medium-6.large-3.columns
+				select(href="/")
+					option Price Range
+					option ----------
+					option £0 - £100
+					option £101 - £250
+					option £251 - £500
+					option £500+
+			div.filter.small-12.medium-6.large-3.columns
+				select(href="/")
+					option Rating
+					option ----------
+					option 1 Star
+					option 2 Star
+					option 3 Star
+					option 4 Star
+					option 5 Star
+	div#items 
+		div.row
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display1.jpg")
+				div.searchItemInfo
+					h4 Grey Sofa
+					h6 £260
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display2.jpg")
+				div.searchItemInfo
+					h4 Small White Table
+					h6 £130
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					img.searchProductImage(src="/public/images/display3.jpg")
+				div.searchItemInfo
+					h4 Banana Lounger
+					h6 £110
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display4.jpg")
+				div.searchItemInfo
+					h4 White Rocker
+					h6 £130
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display5.jpg")
+				div.searchItemInfo
+					h4 Large Black Table
+					h6 £500
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display6.jpg")
+				div.searchItemInfo
+					h4 Medium Black Table
+					h6 £250
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display7.jpg")
+				div.searchItemInfo
+					h4 Chequed Armchair
+					h6 £300
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display8.jpg")
+				div.searchItemInfo
+					h4 Beige Sofa
+					h6 £240
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display9-mobile.jpg")
+				div.searchItemInfo
+					h4 Black Chair Set
+					h6 £180
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display10.jpg")
+				div.searchItemInfo
+					h4 White Display Table
+					h6 £110
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display11.jpg")
+				div.searchItemInfo
+					h4 Kitchen Set
+					h6 £500
+					i.fa.fa-heart
+				div.divider.hide-for-medium
+			div.item.small-12.medium-4.large-3.columns
+				div.image
+					a(href="/product")
+						img.searchProductImage(src="/public/images/display1.jpg")
+				div.searchItemInfo
+					h4 Grey Sofa
+					h6 £260
+					i.fa.fa-heart
+	div.pages
+		div.pageNumber.active 
+			a(href="/search") 1 
+		div.pageNumber
+			a(href="/search") 2 
+		div.pageNumber
+			a(href="/search") 3 
+		div.pageNumber
+			a(href="/search") 4
+include footer.pug

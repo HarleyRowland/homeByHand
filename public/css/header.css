@@ -1,178 +1,60 @@
-#navigation {
-	width: 100%;
-	padding: 10px;
-}
-
-#navigation *:not(.fa) {
-  font-family: 'Arapey', serif !important;
-}
-
-#logoAndIcons {
+#nav, #stickyNav {
+  width: 100vw;
   display: flex;
-  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  padding-top: 5px;
 }
 
-#logo {
-  height: 40px;
+#nav #logo img, #stickyNav #stickyLogo img {
+  height: 50px;
 }
 
-#navLinks {
-  height: 70px;
-  padding-top: 10px;
+#stickyNav {
+  position: fixed; /* Make it stick/fixed */
+  top: -100px; /* Hide the navbar 50 px outside of the top view */
+  width: 100%; /* Full width */
+  transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
 
-#navLinks .navLink {
-  text-align: center;
-  display: inline-block;
-  line-height: 1.1;
+#navLinks, #stickyNavLinks {
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.navLink a {
-  color: #000000;
+#navLinks span,  #stickyNavLinks span {
+  margin: 15px;
+  font-size: 30px;
+}
+
+#navLinks a, #stickyNavLinks a {
+  color: #FFFFFF;
   transition: 0.5s;
 }
 
-.navLink a:hover {
-  color: #D6AD10;
+#navLinks a:hover,  #stickyNavLinks a:hover {
+  color: #999999;
 }
 
-.navLink#sale a {
-  color: #D6AD10;
-  transition: 0.5s;
-}
+/* ----------- Galaxy S3 ----------- */
 
-.navLink#sale a:hover {
-  color: #000000;
-}
+/* Portrait and Landscape */
+@media screen 
+  and (max-width: 360px) 
+  and (max-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) {
+    #navLinks, #stickyNavLinks {
+      text-align: center;
+      padding-right: 0;
+    }
 
-#navigation *:not(.fa) {
-	font-size: 25px;
+    #navLinks span, #stickyNavLinks span {
+      /*margin: 5px;*/
+      margin-right: 0px;
+    }
 }
-
-#menu-bars  {
-	height: 100%;
-	display: flex;
- 	justify-content: flex-end;
- 	align-items: center;
-}
-
-#menu-bars .fa {
-	color: #F9F7F3;
-}
-
-#logo img {
-	height: 100%;
-	max-width: 250px;
-}
-
-#icons {
-	display: flex;
- 	justify-content: flex-end;
-  padding: 5px;
-}
-
-#icons i {
-  transition: 0.5s;
-}
-
-#icons i:hover {
-  color: #D6AD10;
-  cursor: pointer;
-}
-
-.wrapper{
-	margin-left: 10px;
-  margin-right: 10px;
-}
-
-#iconsAndPopUpMenu {
-  position: absolute;
-  right: 0;
-  top: 0;
-  border: solid 1px #FFFFFF;
-  border-top: none;
-  z-index: 1000;
-  margin-top: -10px;
-  padding-top: 10px;
-  background-color: #FFFFFF
-}
-
-#popUpMenu {
-  display: none;
-  padding: 30px;
-  text-align: center;
-  background-color: #FFFFFF;
-}
-
-#popUpMenu > div{
-  margin-bottom: 15px;
-}
-
-#popUpMenu a {
-  transition: 1s;
-  color: #000000;
-}
-
-#popUpMenu a:hover {
-  color: #D6AD10;
-}
-
-#popUpNewArrivals a {
-  color: #D6AD10;
-}
-
-#popUpNewArrivals a:hover {
-  color: #000000;
-}
-
-#popUpClearance a {
-  color: red;
-}
-
-#popUpClearance a:hover {
-  color: #000000;
-}
-
-#imageGrid {
-  border: solid 1px #000000;
-}
-
-#gridImage {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-right: solid 1px #000000;
-  border-bottom: solid 1px #000000;
-}
-
-#gridBath {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: solid 1px #000000;
-}
-
-#gridBed {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-right: solid 1px #000000;
-}
-
-#gridLightbulb {
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-#popUpBasket, #popUpProfile {
-  display: none;
-  padding: 30px;
-}
-
-#popUpProfile a {
-  width: 100%;
-  background-color: #D6AD10;
-  transition: 1s;
-}
-
-#popUpProfile a:hover {
-  background-color: #BD9400;
-}
- 

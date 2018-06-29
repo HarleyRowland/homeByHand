@@ -28,6 +28,7 @@ var callback = function(error, res, template, data){
 
 app.get("/", (req, res) => userController.simplePage(req, res, "home.pug", callback))
 app.get("/product", (req, res) => userController.simplePage(req, res, "product.pug", callback))
+app.get("/search", (req, res) => userController.simplePage(req, res, "search.pug", callback))
 app.get("/contact", (req, res) => userController.simplePage(req, res, "contact.pug", callback))
 app.get("/about", (req, res) => userController.simplePage(req, res, "aboutUs.pug", callback))
 app.get("/delivery", (req, res) => userController.simplePage(req, res, "delivery.pug", callback))

@@ -1,0 +1,64 @@
+#advancedSearch {
+	padding-top: 5px;
+}
+
+#advancedSearch .fa {
+	color: #999999;
+}
+
+#accordion h5 {
+	transition: 0.5s;
+	cursor: pointer;
+	text-align: right;
+}
+
+#accordion h5 .fa {
+	right: 10;
+	top: 10;
+	margin-left: 20px;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+#filters {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.searchProductImage {
+	padding: 5px;
+	border: solid 1px #000000;
+}
+
+.item {
+	margin-bottom: 20px;
+}
+
+.searchItemInfo {
+	text-align: center;
+}
+
+.pages {
+	text-align: center;
+}
+
+.pageNumber {
+	border: solid 1px #000000;
+	padding: 3px;
+	width: 32px;
+	display: inline-block;
+	margin: 2px;
+}
+
+.pageNumber.active {
+	background-color: #DDDDDD;
+}
+
+.pageNumber a {
+	color: #000000;
+}
+
+.divider {
+	border-bottom: 1px solid #000000;
+}

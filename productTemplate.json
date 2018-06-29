@@ -1,0 +1,18 @@
+{
+	"product-id": "",
+	"type": "",
+	"title": "",
+	"subtitle": "",
+	"short-description": "",
+	"long-description": "",
+	"delivery": "",
+	"price": "",
+	"img-url": "",
+	"dimensions": {
+		"height": "",
+		"width": "",
+		"depth": ""
+	},
+	"colours": ["", "", "", ""],
+	"similar-products": ["", "", "", ""]
+}
