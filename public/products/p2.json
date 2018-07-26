@@ -1,0 +1,17 @@
+{
+	"productId": "p2",
+	"dateAdded": "15/01/2018",
+	"type": "Sofas",
+	"title": "Grey Couch",
+	"shortDescription": "A 2-seater Sofa",
+	"longDescription": "A 2-seater Sofa. A 2-seater Sofa. A 2-seater Sofa. A 2-seater Sofa.",
+	"delivery": "20",
+	"price": 30000,
+	"dimensions": {
+		"height": "900",
+		"width": "1700",
+		"depth": "700"
+	},
+	"colours": ["grey"],
+	"similarProducts": ["p1", "p9", "p11", "p12"]
+}

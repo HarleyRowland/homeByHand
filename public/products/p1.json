@@ -1,0 +1,17 @@
+{
+	"productId": "p1",
+	"dateAdded": "01/01/2018",
+	"type": "Tables",
+	"title": "Beige Breakfast Table",
+	"shortDescription": "A Small Table with 4 Seats",
+	"longDescription": "A Small Table with 4 Seats. A Small Table with 4 Seats. A Small Table with 4 Seats. A Small Table with 4 Seats.",
+	"delivery": "5",
+	"price": 10000,
+	"dimensions": {
+		"height": "800",
+		"width": "800",
+		"depth": "800"
+	},
+	"colours": ["beige"],
+	"similarProducts": ["p2", "p4", "p7", "p9"]
+}

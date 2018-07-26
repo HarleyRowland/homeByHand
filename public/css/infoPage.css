@@ -1,0 +1,32 @@
+.infoPage {
+	background-color: #FFFFFF;
+	margin-top: -500px;
+	position: relative;
+	padding: 50px;
+	padding-bottom: 10px;
+}
+
+.infoPage .submit {
+	text-align: center;
+}
+
+.infoPage a {
+  background-color: #D6AD10;
+  transition: 1s;
+}
+
+.infoPage a:hover {
+  background-color: #BD9400;
+}
+
+@media screen and (max-width: 64em) {
+	.infoPage {
+		margin-top: 0px;
+	}
+}
+
+@media screen and (min-width: 64em) {
+	#infoPageLanding {
+		height: 100%;
+	}
+}

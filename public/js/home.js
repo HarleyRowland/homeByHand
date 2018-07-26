@@ -67,13 +67,12 @@ $(document).ready(function() {
         nav.classList.toggle('active');
     });
     $('#productCarousel').owlCarousel({
-       loop:true,
-    margin:30,
-    autoPlay:true,
-    autoplaySpeed:1000,
-    nav:true,
+        loop:true,
+        margin:30,
+        autoPlay:true,
+        autoplaySpeed:1000,
+        nav:true,
         rewindNav:false,
-
         responsive: {
             0: {
                 items: 1,

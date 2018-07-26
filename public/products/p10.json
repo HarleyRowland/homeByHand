@@ -1,0 +1,17 @@
+{
+	"productId": "p10",
+	"dateAdded": "07/07/2018",
+	"type": "Tables",
+	"title": "Simple Table",
+	"shortDescription": "A simple desk table.",
+	"longDescription": "A simple desk table. A simple desk table. A simple desk table. A simple desk table. A simple desk table.",
+	"delivery": "12",
+	"price": 15000,
+	"dimensions": {
+		"height": "800",
+		"width": "16000",
+		"depth": "600"
+	},
+	"colours": ["white", "black", "grey", "brown"],
+	"similarProducts": ["p8", "p11", "p12"]
+}

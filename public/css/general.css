@@ -12,8 +12,8 @@ body {
   flex: 1;
 }
 
-.content > div:first-child {
-  border-top: solid #999999 1px;
+#nonLandingPage {
+	margin-top: 20px;
 }
 
 body *:not(.fa):not(.fab) {
@@ -25,17 +25,25 @@ body *:not(.fa):not(.fab) {
 	text-align: center;
 }
 
-.form .formItem {
-	margin-top: 20px;
-}
-
-.form .formItem input{
-	width: 100%;
-	height: 40px;
-}
-
 .divider {
 	border-top: solid 1px #999999;
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.submit {
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.submit a {
+	color: #FFFFFF;
+	background-color: #006600;
+	padding: 8px;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.submit a:hover {
+	background-color: #00AA00;
 }

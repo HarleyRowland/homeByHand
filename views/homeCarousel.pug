@@ -1,37 +1,9 @@
 div.owl-carousel.owl-theme#productCarousel
-	div.productCarouselImage
-		img(src="/public/images/display1.jpg")
-		div.productCarouselTitleBlock
-			span.productCarouselTitle Grey Couch
-			span.productCarouselSubtitle A 2-seater Sofa
-			span.price £300
-	div.productCarouselImage
-		img(src="/public/images/display2.jpg")
-		div.productCarouselTitleBlock
-			span.productCarouselTitle Beige Breakfast Table
-			span.productCarouselSubtitle A Small Table with 4 Seats
-			span.price £100
-	div.productCarouselImage
-		img(src="/public/images/display3.jpg")
-		div.productCarouselTitleBlock
-			span.productCarouselTitle Banana Lounger
-			span.productCarouselSubtitle A Small Relaxing Chair
-			span.price £150
-	div.productCarouselImage
-		img(src="/public/images/display4.jpg")
-		div.productCarouselTitleBlock
-			span.productCarouselTitle White Rocker
-			span.productCarouselSubtitle A Rocking Chair
-			span.price £150
-	div.productCarouselImage
-		img(src="/public/images/display5.jpg")
-		div.productCarouselTitleBlock
-			span.productCarouselTitle Black Table Set
-			span.productCarouselSubtitle A Large Table with 6 Chairs
-			span.price £500
-	div.productCarouselImage
-		img(src="/public/images/display6.jpg")
-		div.productCarouselTitleBlock
-			span.productCarouselTitle Brown Breakfast Table
-			span.productCarouselSubtitle A Small Table with 4 Seats
-			span.price £300
+	each product in data.carousel
+		div.productCarouselImage
+			a(href="/product?productId=" + product.productId)
+				img(src="/public/images/" + product.productId + ".jpg")
+			div.productCarouselTitleBlock
+				span.productCarouselTitle #{product.title}
+				span.productCarouselSubtitle #{product.shortDescription}
+				span.price #{product.displayPrice}

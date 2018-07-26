@@ -32,13 +32,35 @@
   font-size: 30px;
 }
 
-#navLinks a, #stickyNavLinks a {
+#navLinks a {
+  color: #000000;
+  transition: 0.5s;
+}
+
+#stickyNavLinks a {
   color: #FFFFFF;
   transition: 0.5s;
 }
 
+#landing #navLinks a {
+  color: #FFFFFF;
+}
+
 #navLinks a:hover,  #stickyNavLinks a:hover {
   color: #999999;
+}
+
+#landing #logo img {
+  content:url("/public/images/logo-white.png");
+}
+
+#nav {
+  border-bottom: 1px solid #AAAAAA;
+}
+
+#landing #nav {
+  border-bottom: none;
+  margin-bottom: auto;
 }
 
 /* ----------- Galaxy S3 ----------- */

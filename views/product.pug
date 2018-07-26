@@ -3,29 +3,29 @@ div.content
 	div#productImageAndDescription.row
 		div#productImage.small-12.medium-6.columns
 			div.title.hide-for-medium
-				h3 APPLEWOOD
-				h5 GREEN CHEST OF DRAWS
-			img.show-for-medium#mainProductImage(src="/public/images/display1.jpg")
+				h3 #{data.product.title}
+				h5 #{data.product.shortDescription}
+			img.show-for-medium#mainProductImage(src="/public/images/" + data.product.productId + ".jpg")
 			div.owl-carousel.owl-theme#moreImagesCarousel
 				div.moreImagesCarouselImage
-					img(src="/public/images/display1.jpg")
+					img(src="/public/images/" + data.product.productId + ".jpg")
 				div.moreImagesCarouselImage
-					img(src="/public/images/display2.jpg")
+					img(src="/public/images/" + data.product.productId + ".jpg")
 				div.moreImagesCarouselImage
-					img(src="/public/images/display3.jpg")
+					img(src="/public/images/" + data.product.productId + ".jpg")
 				div.moreImagesCarouselImage
-					img(src="/public/images/display4.jpg")
+					img(src="/public/images/" + data.product.productId + ".jpg")
 				div.moreImagesCarouselImage
-					img(src="/public/images/display5.jpg")
+					img(src="/public/images/" + data.product.productId + ".jpg")
 				div.moreImagesCarouselImage
-					img(src="/public/images/display6.jpg")
+					img(src="/public/images/" + data.product.productId + ".jpg")
 		#description.small-12.medium-6.columns
 			div.title.show-for-medium
-				h3 APPLEWOOD
-				h5 GREEN CHEST OF DRAWS 
+				h3 #{data.product.title}
+				h5 #{data.product.shortDescription}
 			div#priceAndRating.row
 				div#price.small-6.columns
-					h1 £245
+					h1 #{data.product.displayPrice}
 				div#rating.small-6.columns
 					div
 						i.fa.fa-star.litStar
@@ -37,10 +37,10 @@ div.content
 			div#dimensionsAndItemCode.row
 				div#dimensions.small-7.columns
 					b.text Size: 
-					span.data 180cm x 300cm x 70cm
+					span.data  #{data.product.dimensions.height} x #{data.product.dimensions.width} x #{data.product.dimensions.depth}
 				div#itemCode.small-5.columns
 					b.text Item Code: 
-					span.data 1234567890
+					span.data #{data.product.productId}
 			div#colours
 				span.text Colour:
 				div

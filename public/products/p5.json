@@ -1,0 +1,17 @@
+{
+	"productId": "p5",
+	"dateAdded": "28/02/2018",
+	"type": "Tables",
+	"title": "Black Table Set",
+	"shortDescription": "A large table with 6 chairs.",
+	"longDescription": "A large table with 6 chairs. A large table with 6 chairs. A large table with 6 chairs.",
+	"delivery": "15",
+	"price": 50000,
+	"dimensions": {
+		"height": "800",
+		"width": "20000",
+		"depth": "600"
+	},
+	"colours": ["black"],
+	"similarProducts": ["p4", "p7", "p9"]
+}

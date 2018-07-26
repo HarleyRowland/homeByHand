@@ -9,7 +9,8 @@
 #accordion h5 {
 	transition: 0.5s;
 	cursor: pointer;
-	text-align: right;
+	text-align: left;
+	padding-left: 10px;
 }
 
 #accordion h5 .fa {
@@ -24,6 +25,8 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    padding-left: 10px;
+	padding-right: 10px;
 }
 
 .searchProductImage {
@@ -33,32 +36,18 @@
 
 .item {
 	margin-bottom: 20px;
+	float: left !important;
 }
 
 .searchItemInfo {
-	text-align: center;
-}
-
-.pages {
-	text-align: center;
-}
-
-.pageNumber {
-	border: solid 1px #000000;
-	padding: 3px;
-	width: 32px;
-	display: inline-block;
-	margin: 2px;
-}
-
-.pageNumber.active {
-	background-color: #DDDDDD;
-}
-
-.pageNumber a {
-	color: #000000;
+	padding-top: 10px;
+	padding-left: 10px;
 }
 
 .divider {
 	border-bottom: 1px solid #000000;
+}
+
+#noResults {
+	text-align: center;
 }

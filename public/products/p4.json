@@ -1,0 +1,17 @@
+{
+	"productId": "p4",
+	"dateAdded": "01/02/2018",
+	"type": "Chairs",
+	"title": "White Rocker",
+	"shortDescription": "A White Rocking Chair.",
+	"longDescription": "A White Rocking Chair. A White Rocking Chair. A White Rocking Chair. A White Rocking Chair.",
+	"delivery": "5",
+	"price": 15000,
+	"dimensions": {
+		"height": "800",
+		"width": "500",
+		"depth": "500"
+	},
+	"colours": ["white"],
+	"similarProducts": ["p2", "p3", "p6", "p19"]
+}

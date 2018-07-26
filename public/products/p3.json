@@ -1,0 +1,17 @@
+{
+	"productId": "p3",
+	"dateAdded": "31/01/2018",
+	"type": "Chairs",
+	"title": "Banana Lounger",
+	"shortDescription": "A small relaxing chair.",
+	"longDescription": "A small relaxing chair. A small relaxing chair. A small relaxing chair. A small relaxing chair.",
+	"delivery": "3",
+	"price": 15000,
+	"dimensions": {
+		"height": "800",
+		"width": "400",
+		"depth": "400"
+	},
+	"colours": ["yellow"],
+	"similarProducts": ["p1", "p3", "p8"]
+}

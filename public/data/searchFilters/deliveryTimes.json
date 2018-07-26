@@ -1,0 +1,8 @@
+{
+	"title": "Delivery Times",
+	"options": [
+		"Less than a week",
+		"Less than a month",
+		"More than a month"
+	]
+}

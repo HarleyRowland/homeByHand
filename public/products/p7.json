@@ -1,0 +1,17 @@
+{
+	"productId": "p7",
+	"dateAdded": "19/03/2018",
+	"type": "Chairs",
+	"title": "Tartan Lounge Chair",
+	"shortDescription": "A small armchair.",
+	"longDescription": "A small armchair. A small armchair. A small armchair. A small armchair. A small armchair. A small armchair.",
+	"delivery": "10",
+	"price": 15000,
+	"dimensions": {
+		"height": "800",
+		"width": "8000",
+		"depth": "800"
+	},
+	"colours": ["red", "green", "blue"],
+	"similarProducts": ["p3", "p12", "p16"]
+}

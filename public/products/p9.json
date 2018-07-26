@@ -1,0 +1,17 @@
+{
+	"productId": "p9",
+	"dateAdded": "30/04/2018",
+	"type": "Tables",
+	"title": "Dark Breakfast Table",
+	"shortDescription": "A small table with 4 chairs.",
+	"longDescription": "A small table with 4 chairs. A small table with 4 chairs. A small table with 4 chairs. A small table with 4 chairs.",
+	"delivery": "40",
+	"price": 20000,
+	"dimensions": {
+		"height": "800",
+		"width": "900",
+		"depth": "900"
+	},
+	"colours": ["black", "grey", "dark blue"],
+	"similarProducts": ["p5", "p7", "p13"]
+}

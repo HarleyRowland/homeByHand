@@ -1,18 +1,18 @@
 #footer {
-	border-top: solid 1px #AAAAAA;
+	border-top: solid 1px #000000;
 	text-align: center;
 	padding: 20px;
 	margin-top: 50px;
 }
 
 #footer * {
-	color: #AAAAAA;
+	color: #000000;
 	font-size: 15px;
 	transition: 1s
 }
 
 #footer *:hover {
-	color: #000000;
+	color: #AAAAAA;
 }
 
 #social {
@@ -28,7 +28,7 @@
 }
 
 #social i:hover {
-	color: #000000;
+	color: #AAAAAA;
 }
 
 .footerLink {

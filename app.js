@@ -3,6 +3,9 @@ var bodyParser = require('body-parser');
 const app = express();
 
 var userController = require('./controllers/userController.js')
+var homepageController = require('./controllers/homepageController.js')
+var searchController = require('./controllers/searchController.js')
+var productController = require('./controllers/productController.js')
 
 app.set("view engine", "pug");
 app.set('port', (process.env.PORT || 5000));
@@ -26,9 +29,9 @@ var callback = function(error, res, template, data){
   res.render(template, {data: data});
 }
 
-app.get("/", (req, res) => userController.simplePage(req, res, "home.pug", callback))
-app.get("/product", (req, res) => userController.simplePage(req, res, "product.pug", callback))
-app.get("/search", (req, res) => userController.simplePage(req, res, "search.pug", callback))
+app.get("/", (req, res) => homepageController.getPageData(req, res, "home.pug", callback))
+app.get("/product", (req, res) => productController.productPage(req, res, "product.pug", callback))
+app.get("/search", (req, res) => searchController.search(req, res, "search.pug", callback))
 app.get("/contact", (req, res) => userController.simplePage(req, res, "contact.pug", callback))
 app.get("/about", (req, res) => userController.simplePage(req, res, "aboutUs.pug", callback))
 app.get("/delivery", (req, res) => userController.simplePage(req, res, "delivery.pug", callback))

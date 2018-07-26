@@ -1,0 +1,17 @@
+{
+	"productId": "p8",
+	"dateAdded": "03/04/2018",
+	"type": "Sofas",
+	"title": "Lounger for 2",
+	"shortDescription": "A small 2-seater sofa.",
+	"longDescription": "A small 2-seater sofa. A small 2-seater sofa. A small 2-seater sofa. A small 2-seater sofa. A small 2-seater sofa.",
+	"delivery": "20",
+	"price": 35000,
+	"dimensions": {
+		"height": "800",
+		"width": "1800",
+		"depth": "900"
+	},
+	"colours": ["grey", "red", "blue", "green"],
+	"similarProducts": ["p1", "p9"]
+}

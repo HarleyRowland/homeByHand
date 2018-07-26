@@ -1,0 +1,12 @@
+{	
+	"title": "Product Types",
+	"options": [
+		"All Furniture",
+		"Tables",
+		"Chairs",
+		"Sofas",
+		"Home Accessories",
+		"Gifts",
+		"Lighting"
+	]
+}

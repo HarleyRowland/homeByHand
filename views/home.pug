@@ -17,6 +17,7 @@ html
 		script(type='text/javascript' src='public/js/jquery.js')
 		script(type='text/javascript' src='public/js/header.js')
 		script(type='text/javascript' src='public/js/home.js')
+		include localData.pug
 		script(src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js")
 		script(src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js")
 		script(src='public/js/owl.carousel.min.js')
@@ -25,7 +26,7 @@ html
 		link(rel='stylesheet', href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css")
 	body
 		include sidebar.pug
-		include homeLanding.pug
+		include landing.pug
 		include homeCarousel.pug
 		include homeCollage.pug
 		include footer.pug

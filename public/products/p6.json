@@ -1,0 +1,17 @@
+{
+	"productId": "p6",
+	"dateAdded": "01/03/2018",
+	"type": "Tables",
+	"title": "Brown Breakfast Table",
+	"shortDescription": "A small table with 4 chairs.",
+	"longDescription": "A small table with 4 chairs. A small table with 4 chairs. A small table with 4 chairs.",
+	"delivery": "15",
+	"price": 30000,
+	"dimensions": {
+		"height": "800",
+		"width": "900",
+		"depth": "900"
+	},
+	"colours": ["brown"],
+	"similarProducts": ["p4", "p7"]
+}
