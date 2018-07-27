@@ -1,5 +1,5 @@
 include header.pug
-div.content
+div.content.noLanding
 	div#productImageAndDescription.row
 		div#productImage.small-12.medium-6.columns
 			div.title.hide-for-medium
@@ -74,58 +74,21 @@ div.content
 				a(href="/") Save to wishlist
 		div#more-info.show-for-medium
 			h5 More Info
-			p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut gravida nulla. Phasellus eu porttitor velit. Nunc elementum lorem nibh, ullamcorper tristique dolor pretium a. Pellentesque sed volutpat leo. Donec imperdiet odio id lectus auctor, et interdum turpis tincidunt.
+			p #{data.product.longDescription}
 	div#more-info.hide-for-medium
 		h5 More Info
-		p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ut gravida nulla. Phasellus eu porttitor velit. Nunc elementum lorem nibh, ullamcorper tristique dolor pretium a. Pellentesque sed volutpat leo. Donec imperdiet odio id lectus auctor, et interdum turpis tincidunt.
+			p #{data.product.longDescription}
 	div.divider.row
 	div#seeAlso.row
 		h3 You Might Also Like
 		h5 Get 10% Off When You Buy These Items Together
 		div.owl-carousel.owl-theme#seeAlsoCarousel
-			div.seeAlsoItem
-				div.seeAlsoCarouselImage
-					img(src="/public/images/display2.jpg")
-					a.pageLink(href="/product")
-						i.fa-eye.fa
-				div.seeAlsoDetails
-					div.seeAlsoTitle Apple Kitchen Table
-					div.seeAlsoSubtitle White four-seater table
-					div.seeAlsoPrice £200
-			div.seeAlsoItem
-				div.seeAlsoCarouselImage
-					img(src="/public/images/display3.jpg")
-					a.pageLink(href="/product")
-						i.fa-eye.fa
-				div.seeAlsoDetails
-					div.seeAlsoTitle Banana lounger
-					div.seeAlsoSubtitle Yellow Desk Chair
-					div.seeAlsoPrice £100
-			div.seeAlsoItem
-				div.seeAlsoCarouselImage
-					img(src="/public/images/display4.jpg")
-					a.pageLink(href="/product")
-						i.fa-eye.fa
-				div.seeAlsoDetails
-					div.seeAlsoTitle Casual Rocker
-					div.seeAlsoSubtitle White Rocking Chair
-					div.seeAlsoPrice £120
-			div.seeAlsoItem
-				div.seeAlsoCarouselImage
-					img(src="/public/images/display5.jpg")
-					a.pageLink(href="/product")
-						i.fa-eye.fa
-				div.seeAlsoDetails
-					div.seeAlsoTitle Rowland Dining Set
-					div.seeAlsoSubtitle Large Table and Chairs
-					div.seeAlsoPrice £400
-			div.seeAlsoItem
-				div.seeAlsoCarouselImage
-					img(src="/public/images/display6.jpg")
-					a.pageLink(href="/product")
-						i.fa-eye.fa
-				div.seeAlsoDetails
-					div.seeAlsoTitle Gould Brunch Set
-					div.seeAlsoSubtitle Small Table and Chairs
-					div.seeAlsoPrice £300
+			each product in data.product.similarProducts
+				div.seeAlsoItem
+					div.seeAlsoCarouselImage
+						img(src="/public/images/" + product.productId + ".jpg")
+					div.seeAlsoDetails
+						h6.seeAlsoTitle #{product.title}
+						h6.seeAlsoPrice #{product.displayPrice}
+			
 include footer.pug

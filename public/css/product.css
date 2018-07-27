@@ -9,7 +9,7 @@
 }
 
 #productImageAndDescription h5 {
-	color: #D6AD10;
+	color: #999999;
 }
 
 #productImage .title {
@@ -67,17 +67,18 @@
 }
 
 #addToBasket {
-	background-color: #D6AD10;
+	background-color: #006600;
 	transition: 1s;
 	display: flex;
  	align-items: center;
  	justify-content: center;
  	margin: 0px;
  	padding: 0px;
+ 	cursor: pointer;
 }
 
 #addToBasket:hover {
-  background-color: #BD9400;
+  background-color: #00AA00;
 }
 
 #addToBasket a {
@@ -116,6 +117,10 @@
 #priceAndRating {
 	display: flex;
  	align-items: center;
+}
+
+#itemCode {
+	text-align: right;
 }
 
 #rating > div {
